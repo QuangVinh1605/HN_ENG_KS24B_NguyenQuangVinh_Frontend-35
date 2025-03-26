@@ -13,7 +13,7 @@
             text-align: center;
         }
         .bookmark-card {
-            background-color: #ae7fdd;
+            background-color: #9862ce;
             padding: 10px;
             border-radius: 5px;
             margin-bottom: 10px;
@@ -110,10 +110,10 @@
             }
         }
 
-        function showConfirm(index) {
+        function showConfirmModal(index) {
             deleteIndex = index;
-            let confirm = new bootstrap.Modal(document.getElementById('confirmDeleteModal'));
-            confirm.show();
+            let confirmModal = new bootstrap.Modal(document.getElementById('confirmDeleteModal'));
+            confirmModal.show();
         }
 
         document.getElementById('confirmDeleteBtn').addEventListener('click', function() {
